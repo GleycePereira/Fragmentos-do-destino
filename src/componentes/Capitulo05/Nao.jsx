@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Pagina_inicial from "../Pagina_inicial";
+import palco from "../../assets/Cap5/palco.jpg"
 
 
 export default function Nao(){
@@ -14,6 +15,7 @@ export default function Nao(){
             {!mostrarPagina_inicial? (
 
                 <div className="inicio">
+                    <img className="esconder" src={palco} alt="Palco" />
 
                     <p>
                         Samantha agradece e recusa a proposta de Luna para tirarem férias, precisa mais do que nunca focar nas futuras novas 

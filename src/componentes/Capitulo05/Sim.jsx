@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Pagina_inicial from "../Pagina_inicial";
+import montanha from "../../assets/Cap5/montanha.png"
 
 export default function Sim(){
     const [mostrarPagina_inicial, setMostrarPagina_inicial] = useState(false);
@@ -13,6 +14,7 @@ export default function Sim(){
             {!mostrarPagina_inicial? (
 
                 <div className="inicio">
+                    <img className="esconder" src={montanha} alt="Montanha" />
 
                     <p>
                         Samantha e Luna estavam de férias em uma cabana nas montanhas, rodeadas por árvores altas e o som tranquilo da 
