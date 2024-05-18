@@ -1,0 +1,344 @@
+/* Mensagem escrita */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* Email */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Shadows+Into+Light&display=swap');
+/* Noticia */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+*{
+    text-align: center;
+}
+
+
+.container {
+    /* -- Sensação de várias páginas */
+    /* margin: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 70vw;
+
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 97vh; /* altura mínima do container para cobrir a tela inteira */ 
+}
+
+.inicio{
+    width: 90vw;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgba(58, 30, 77, 0.808);
+
+}
+
+.desfecho{
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+
+    margin: 12px auto;
+
+}
+
+.centro{
+    text-align: center;
+}
+
+.inicial{
+    background-image: url("../assets/cidade.jpg");
+}
+
+.outra{
+    margin-top: 25px;
+    text-align: justify;
+}
+
+
+/* MENSAGENS */
+.msg{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+
+    padding: 0 10vw;
+}
+
+.email{
+    padding: 0 10vw;
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem ;
+}
+
+
+/* DIALOGO */
+.d_alexander{
+    background-color: rgba(9, 117, 9, 0.4);
+    border-radius: 5px;
+}
+
+.d_samantha{
+    background-color: rgba(95, 1, 202, 0.4);
+    border-radius: 5px;
+}
+
+.d_luna{
+    background-color: rgba(209, 14, 14, 0.4);
+    border-radius: 5px;
+}
+
+.d_desconhecido, .d_menino{
+    background-color: rgba(85, 78, 78, 0.4);
+    border-radius: 5px;
+}
+
+.d_kim{
+    background-color: rgba(204, 190, 0, 0.4);
+    border-radius: 5px;
+}
+
+.d_valdo{
+    background-color: rgba(252, 122, 0, 0.4);
+    border-radius: 5px;
+}
+
+.d_secretaria{
+    background-color: rgba(7, 130, 179, 0.4);
+    border-radius: 5px;
+}
+
+.d_elena{
+    background-color: rgba(12, 99, 199, 0.4);
+    border-radius: 5px;
+}
+
+.d_hugo{
+    background-color: rgba(5, 139, 110, 0.4);
+    border-radius: 5px;
+}
+
+.d_yara{
+    background-color: rgba(229, 255, 0, 0.4);
+    border-radius: 5px;
+}
+
+/* ---------------------
+    IMAGENS DE FUNDO
+   --------------------- */
+
+
+/* ----- CAP 1 ----- */
+.cap1{
+    background-image: url("../assets/boate-cyber.jpg");   
+}
+
+.corpo {
+    background-image: url("../assets/cena-crime.png");  
+}
+
+.delegado{
+    background-image: url("../assets/boate.jpg");  
+}
+
+.pertences {
+    background-image: url("../assets/quarto.png");
+}
+
+.continuar, .liberar, .testemunha {
+    background-image: url("../assets/boate-punk.jpg");  
+}
+
+
+/* ----- CAP 2 ----- */
+.cap2{
+    background-image: url("../assets/Cap2/cap2.jpg");
+}
+
+.relatorio{
+    background-image: url("../assets/Cap2/interface-blur.png");
+}
+
+.local{
+    background-image: url("../assets/Cap2/deserto.jpg");
+}
+
+.laboratorio{
+    background-image: url("../assets/Cap2/front-desk.jpg");
+}
+
+.kim{
+    background-image: url("../assets/Cap2/kim.jpg");
+}
+
+.ligacao, .alexander{
+    background-image: url("../assets/Cap2/ligacao.png");
+}
+
+
+/* ----- CAP 3 ----- */
+.cap3{
+    background-image: url("../assets/Cap3/industrial.jpg");
+}
+
+.fundos{
+    background-image: url("../assets/Cap3/laboratorio.jpg");
+}
+
+.porta{
+    background-image: url("../assets/Cap3/thug.jpg");
+}
+
+
+.cap3_3{
+    background-image: url("../assets/boate-punk.jpg");
+}
+
+.quarto{
+    background-image: url("../assets/quarto.png");
+}
+
+.seguranca, .acreditar, .ameacar{
+    background-image: url("../assets/Cap3/valdo.jpg");
+}
+
+
+.cap3_2{
+    background-image: url("../assets/Cap3/police-dep.jpg");
+}
+
+.enrico{
+    background-image: url("../assets/Cap3/dados-enrico.png") ;
+}
+
+.documento{
+    background-image: url("../assets/Cap3/documento.png");
+}
+
+.indagar{
+    background-image: url("../assets/Cap3/mesa.jpg");
+}
+
+.anotar{
+    background-image: url("../assets/Cap3/anotacao.jpg");
+}
+
+
+/* ----- CAP 4 ----- */
+.Cap4_2{
+    background-image: url("../assets/Cap4/front-desk.png");
+}
+
+.hugo{
+    background-image: url("../assets/Cap4/hugo.jpg");
+}
+
+.elena{
+    background-image: url("../assets/Cap4/elena.png");
+}
+
+.prender{
+    background-image: url("../assets/Cap4/algema.jpg");
+}
+
+.cap4_3{
+    background-image: url("../assets/Cap3/industrial.jpg");
+}
+
+.cap4_4{
+    background-image: url("../assets/Cap3/mesa.jpg");
+}
+
+.gravacao{
+    background-image: url("../assets/Cap4/gravacao.png");
+}
+
+.fugir{
+    background-image: url("../assets/Cap4/medico.jpg");
+}
+
+.cap4{
+    background-image: url("../assets/Cap4/apartamento.jpg");
+}
+
+.proteger{
+    background-image: url("../assets/Cap4/proteger.jpg");
+}
+
+.correr{
+    background-image: url("../assets/Cap4/correr.jpg");
+}
+
+.atirar{
+    background-image: url('../assets/Cap4/ambulancia.jpg');
+}
+
+.lutar{
+    background-image: url("../assets/Cap4/bagunca.jpg");
+}
+
+
+/* ----- CAP 5 ----- */
+
+.Cap5_2, .cap5_3{
+    background-image: url("../assets/Cap5/apart.png");
+}
+
+.aceitar{
+    background-image: url("../assets/Cap5/lanchonete.webp");
+}
+
+.recusar{
+    background-image: url("../assets/Cap5/email.png");
+}
+
+.fernanda{
+    background-image: url("../assets/Cap5/executiva.jpg");
+}
+
+.prender{
+    background-image: url("../assets/Cap5/restaurante.jpg");
+}
+
+.cap5{
+    background-image: url("../assets/Cap5/hospital.jpg");
+}
+
+.sim{
+    background-image: url("../assets/Cap5/montanha.png");
+}
+
+.nao{
+    background-image: url("../assets/Cap5/palco.jpg");
+}
+
+
+/* Responsividade  */
+.esconder{
+    display: none;
+}
+
+
+@media (max-width: 800px){
+
+    .esconder{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+    }
+
+
+    .email{
+        padding: 0 1vw;
+    
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem ;
+    }
+}
