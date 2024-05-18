@@ -16,8 +16,3 @@ Durante a investigação, Samantha se depara com diversas situações, em cada u
 <h2 align="center">
   <a href="https://fragmentos-do-destino.vercel.app/">JOGAR!</a>
 </h2>
-
-
-<p>
-  O projeto foi 
-</p> O projeto foi desenvolvido por react js
