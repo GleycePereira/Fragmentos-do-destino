@@ -7,9 +7,9 @@ Durante a investigação, Samantha se depara com diversas situações, em cada u
 
 ![Captura de tela 2024-05-18 174801](https://github.com/GleycePereira/Fragmentos-do-destino/assets/142240220/65d73705-36e2-44ef-ae3e-aecd9e558e80)
 
-<h1 align="center" style="font-size: 40px;"> 🎮Agora é sua vez de jogar para resolver a investigação🎮</h1>
+<h1 align="center" style="font-size: 35px;"> 🎮Agora é sua vez de jogar para resolver a investigação🎮</h1>
 
-<p align="center" style="font-size: 40px;">
+<p align="center" style="font-size: 30px;">
     ⚠️<strong>Lembre-se qualquer escolha pode ser fatal para o seu destino</strong>⚠️
 </p>
 
